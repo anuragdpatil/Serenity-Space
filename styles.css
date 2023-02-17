@@ -63,7 +63,7 @@
 }
 
 @media screen and (min-width: 767px) {
-  .navbar-toggler{
+  .navbar-toggler {
     margin: 0px !important;
   }
 }
@@ -127,6 +127,33 @@ h8 {
   padding: auto;
   font-weight: bolder;
   color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  h8 {
+    font-size: 900%;
+    padding: auto;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h8 {
+    font-size: 700%;
+    padding: auto;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h8 {
+    font-size: 500%;
+    padding: auto;
+    font-weight: bolder;
+    color: #ffffff;
+  }
 }
 
 h81 {
@@ -256,7 +283,7 @@ a:hover {
 }
 
 .navbar-toggler {
-  height: 20px ;
+  height: 20px;
   width: auto;
   vertical-align: middle;
   color: white;
